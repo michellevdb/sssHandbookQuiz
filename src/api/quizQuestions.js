@@ -278,7 +278,7 @@ var quizQuestions = [
             },
             {
                 type: "Proficient",
-                content: "Public replies are internal only viewable by GoGuardian employees; internal notes are customer facing and visible to the requestor"
+                content: "Public replies are internal and only viewable by GoGuardian employees; internal notes are customer facing and visible to the requestor"
             },
             {
                 type: "Beginner",

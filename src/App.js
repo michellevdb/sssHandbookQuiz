@@ -19,10 +19,10 @@ class App extends Component {
       answerOptions: [],
       answer: '',
       answersCount: {
-        true: 1,
-        false1: 0,
-        false2: 0,
-        false3: 0
+        Expert: 0,
+        Proficient: 0,
+        Advanced: 0,
+        Beginner: 0
       },
       result: ''
     };

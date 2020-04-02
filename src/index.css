@@ -1,18 +1,22 @@
 
-{
-  box-sizing: border-box;
-}
- 
 body {
   margin: 0;
   padding: 0;
   background: #eee;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(16, 38, 60);
 }
- 
+h1 {
+  font-size: 45px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(23, 73, 126);
+}
+a {
+  color: rgb(23, 73, 126);
+}
 .container {
   position: relative;
-  max-width: 1150px;
+  max-width: 1100px;
   margin: 0 auto;
   background: #fff;
   border-radius: 3px;

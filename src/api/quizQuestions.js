@@ -5,19 +5,19 @@ var quizQuestions = [
       question: "What are the non-negotiables for the Safety Support Specialist position?",
       answers: [
           {
-              type: "false1",
+              type: "Beginner",
               content: "No Slack or work email on personal devices"
           },
           {
-              type: "false2",
+              type: "Proficient",
               content: "No alcohol consumption during work"
           },
           {
-              type: "false3",
+              type: "Advanced",
               content: "Be a team player"
           },
           {
-            type: "true",
+            type: "Expert",
             content: "All answers are correct"
           }
       ]
@@ -26,19 +26,19 @@ var quizQuestions = [
       question: "How will individual SSS success be measured as far as QA?",
       answers: [
           {
-              type: "Stark",
+              type: "Beginner",
               content: "Competency"
           },
           {
-              type: "Lannister",
+              type: "Proficient",
               content: "Process and protocols"
           },
           {
-              type: "Targaryen",
+              type: "Advanced",
               content: "Customer service and metrics"
           },
           {
-            type: "None",
+            type: "Expert",
             content: "All answers are correct"
           }
       ]
@@ -47,19 +47,19 @@ var quizQuestions = [
       question: "What is the code word if you need 5 minutes to collect yourself?",
       answers: [
           {
-              type: "Stark",
+              type: "Beginner",
               content: "Bubblegum"
           },
           {
-              type: "Lannister",
+              type: "Expert",
               content: "Pineapple"
           },
           {
-              type: "Targaryen",
+              type: "Advanced",
               content: "Watermelon"
           },
           {
-            type: "None",
+            type: "Proficient",
             content: "Bacon"
           }
       ]
@@ -68,19 +68,19 @@ var quizQuestions = [
       question: "What is our goal time frame for resolving every alert?",
       answers: [
           {
-              type: "Stark",
+              type: "Beginner",
               content: "5 Minutes"
           },
           {
-              type: "Lannister",
+              type: "Proficient",
               content: "20 Minutes"
           },
           {
-              type: "Targaryen",
+              type: "Expert",
               content: "15 Minutes"
           },
           {
-            type: "None",
+            type: "Advanced",
             content: "30 Minutes"
           }
       ]
@@ -89,11 +89,11 @@ var quizQuestions = [
       question: "When an alert is escalated, the OZ UI automatically sends emails to the Escalation List contacts?",
       answers: [
           {
-              type: "Stark",
+              type: "Expert",
               content: "True"
           },
           {
-              type: "Lannister",
+              type: "Beginner",
               content: "False"
           }
       ]
@@ -102,19 +102,19 @@ var quizQuestions = [
     question: "After deciding to de-escalate an alert, what step is taken next?",
     answers: [
         {
-            type: "Stark",
+            type: "Expert",
             content: "Verify and re-categorize"
         },
         {
-            type: "Lannister",
+            type: "Proficient",
             content: "De-escalate and select 'complete'"
         },
         {
-            type: "Targaryen",
+            type: "Advanced",
             content: "Select 'away'"
         },
         {
-            type: "None",
+            type: "Beginner",
             content: "None of these are correct"
         }
     ]
@@ -123,19 +123,19 @@ var quizQuestions = [
         question: "Which one of these Google search phrases would be considered Active Planning?",
         answers: [
             {
-                type: "Stark",
+                type: "Beginner",
                 content: "I want to kill myself"
             },
             {
-                type: "Lannister",
+                type: "Expert",
                 content: "Painless way to kill yourself"
             },
             {
-                type: "Targaryen",
+                type: "Advanced",
                 content: "Can you die from eating too many watermelon seeds"
             },
             {
-                type: "None",
+                type: "Proficient",
                 content: "Noose"
             }
         ]
@@ -144,20 +144,20 @@ var quizQuestions = [
         question: "What are the correct steps to take if a phone number doesn't work or you cannot leave a voicemail because the voicemail box is full?",
         answers: [
             {
-                type: "Stark",
+                type: "Beginner",
                 content: "Hang up, there is nothing you can do"
             },
             {
-                type: "Lannister",
-                content: "Make a note of it in Zendesk and Oz app, update the manager then move on to the next person on the escalation list"
+                type: "Expert",
+                content: "Note it in Zendesk and Oz, update the manager then move on to the next person on the escalation list"
             },
             {
-                type: "Targaryen",
+                type: "Advanced",
                 content: "Call the last responder and let them know a number on the escalation list is incorrect"
             },
             {
-                type: "None",
-                content: "Email the person whose number is incorrect using the email provided on Oz. Ask for the correct number to update the list"
+                type: "Proficient",
+                content: "Email the person whose number is incorrect and ask for the correct number to update the list"
             }
         ]
     },
@@ -165,11 +165,11 @@ var quizQuestions = [
         question: "Is a second opinion required on all alerts before deciding to escalate or de-escalate?",
         answers: [
             {
-                type: "Stark",
+                type: "Expert",
                 content: "Yes"
             },
             {
-                type: "Lannister",
+                type: "Proficient",
                 content: "No"
             },
             
@@ -180,19 +180,19 @@ var quizQuestions = [
         question: "If you come across an alert for a student or school that you have a personal connection to what should you do?",
         answers: [
             {
-                type: "Stark",
+                type: "Beginner",
                 content: "Move forward with workflow and handle alert"
             },
             {
-                type: "Lannister",
+                type: "Proficient",
                 content: "Let your manager know of the personal connection and still handle the alert"
             },
             {
-                type: "Targaryen",
-                content: "Hit “away” and abstain from handling the alert"
+                type: "Expert",
+                content: "Abstain from handling the alert and hit 'Away'"
             },
             {
-                type: "None",
+                type: "Advanced",
                 content: "Close OZ app and clock out"
             }
         ]
@@ -201,19 +201,19 @@ var quizQuestions = [
         question: "What is the TextExpander you would use when de-escalating an alert?",
         answers: [
             {
-                type: "Stark",
+                type: "Proficient",
                 content: ";deescalate"
             },
             {
-                type: "Lannister",
+                type: "Expert",
                 content: ";ozdes"
             },
             {
-                type: "Targaryen",
+                type: "Beginner",
                 content: ";ozman"
             },
             {
-                type: "None",
+                type: "Advanced",
                 content: ";dealert"
             }
         ]
@@ -222,11 +222,11 @@ var quizQuestions = [
         question: "TextExpander needs to be open in order for the keyboard shortcuts to work.",
         answers: [
             {
-                type: "Stark",
+                type: "Expert",
                 content: "True"
             },
             {
-                type: "Lannister",
+                type: "Advanced",
                 content: "False"
             }
         ]
@@ -235,19 +235,19 @@ var quizQuestions = [
         question: "What are the five levels of classification?",
         answers: [
             {
-                type: "Stark",
+                type: "Beginner",
                 content: "AP, Ideation, Drama, Help & Support, Mental Illness"
             },
             {
-                type: "Lannister",
+                type: "Expert",
                 content: "AP, Ideation, Self-Harm, Help & Support, Research"
             },
             {
-                type: "Targaryen",
+                type: "Advanced",
                 content: "AP, Ideation, Self-Harm, Cry for Help, Research"
             },
             {
-                type: "None",
+                type: "Proficient",
                 content: "None of these answers are correct"
             }
         ]
@@ -256,11 +256,11 @@ var quizQuestions = [
         question: "You can make a call directly from the Oz app.",
         answers: [
             {
-                type: "Stark",
+                type: "Proficient",
                 content: "True"
             },
             {
-                type: "Lannister",
+                type: "Expert",
                 content: "False"
             }
         ]
@@ -269,19 +269,19 @@ var quizQuestions = [
         question: "Which of the following is true about internal notes and public replies on Zendesk?",
         answers: [
             {
-                type: "Stark",
-                content: "Public replies are used like a between two Safety Support Specialists whereas Internal notes are used for note taking"
+                type: "Advanced",
+                content: "Public replies are used between two Safety Support Specialists; Internal notes are used for note taking"
             },
             {
-                type: "Lannister",
-                content: "Public replies are customer facing, whereas internal notes are internal and can only be seen by GoGuardian employees"
+                type: "Expert",
+                content: "Public replies are customer facing; internal notes are internal and can only be seen by GoGuardian employees"
             },
             {
-                type: "Targaryen",
-                content: "Public replies are internal and can only be seen by GoGuardian employees and internal notes are customer facing and can also be seen by the requestor"
+                type: "Proficient",
+                content: "Public replies are internal only viewable by GoGuardian employees; internal notes are customer facing and visible to the requestor"
             },
             {
-                type: "None",
+                type: "Beginner",
                 content: "Public replies and internal notes do the same thing"
             }
         ]
@@ -290,40 +290,40 @@ var quizQuestions = [
         question: "What is the protocol if you get an upset or argumentative customer?",
         answers: [
             {
-                type: "Stark",
+                type: "Beginner",
                 content: "Apologize and call the manager to transfer the call"
             },
             {
-                type: "Lannister",
+                type: "Proficient",
                 content: "Transfer customer to another Safety Support Specialist to handle"
             },
             {
-                type: "Targaryen",
+                type: "Advanced",
                 content: "Apologize and continue workflow"
             },
             {
-                type: "None",
+                type: "Expert",
                 content: "Confirm details and phone number, Slack MOD, and continue workflow as usual"
             }
         ]
     },
     {
-        question: "Which of the following is false if an alert is in queue for longer than 30 minutes?",
+        question: "Which of the following is FALSE if an alert is in queue for longer than 30 minutes?",
         answers: [
             {
-                type: "Stark",
+                type: "Expert",
                 content: "All SSS will get a PagerDuty"
             },
             {
-                type: "Lannister",
+                type: "Beginner",
                 content: "MOD and General Manager will get a PagerDuty"
             },
             {
-                type: "Targaryen",
+                type: "Proficient",
                 content: "MOD will assess the cause of the issue"
             },
             {
-                type: "None",
+                type: "Advanced",
                 content: "MOD and General Manager will review the causes of these instances in the weekly meeting"
             }
         ]
@@ -332,41 +332,41 @@ var quizQuestions = [
         question: "What two platforms do SSS use to address alerts?",
         answers: [
             {
-                type: "Stark",
+                type: "Beginner",
                 content: "Slack and Oz UI"
             },
             {
-                type: "Lannister",
+                type: "Proficient",
                 content: "Zendesk and Slack"
             },
             {
-                type: "Targaryen",
+                type: "Expert",
                 content: "Zendesk and Oz UI"
             },
             {
-                type: "None",
+                type: "Advanced",
                 content: "Oz UI and Slack"
             }
         ]
     },
     {
-        question: "What phase/phases do SSS escalate to school admin?",
+        question: "What phase do SSS escalate to school admin?",
         answers: [
             {
-                type: "Stark",
+                type: "Beginner",
                 content: "Self-Harm"
             },
             {
-                type: "Lannister",
+                type: "Expert",
                 content: "Active Planning"
             },
             {
-                type: "Targaryen",
+                type: "Proficient",
                 content: "Suicide Ideation"
             },
             {
-                type: "None",
-                content: "Active Planning and Suicide Ideation"
+                type: "Advanced",
+                content: "Help and Support"
             }
         ]
     },
@@ -374,11 +374,11 @@ var quizQuestions = [
         question: "If you receive an alert for the same student a second time, you don't have to call the escalation list again.",
         answers: [
             {
-                type: "Stark",
+                type: "Advanced",
                 content: "True"
             },
             {
-                type: "Lannister",
+                type: "Expert",
                 content: "False"
             }
         ]
@@ -387,19 +387,19 @@ var quizQuestions = [
         question: "Why is it important for you to always lock your computer when stepping away from your desk?",
         answers: [
             {
-                type: "Stark",
+                type: "Beginner",
                 content: "Because someone might “Weeble Wobble” you"
             },
             {
-                type: "Lannister",
+                type: "Advanced",
                 content: "Because no one at this company can be trusted"
             },
             {
-                type: "Targaryen",
+                type: "Expert",
                 content: "To protect student PII and sensitive information"
             },
             {
-                type: "None",
+                type: "Proficient",
                 content: "It's not important to lock your computer when stepping away"
             }
         ]
@@ -408,32 +408,32 @@ var quizQuestions = [
         question: "What Slack channel do you need to post the alert on to get a second opinion?",
         answers: [
             {
-                type: "Stark",
+                type: "Beginner",
                 content: "#safety_support"
             },
             {
-                type: "Lannister",
+                type: "Proficient",
                 content: "#ssschamps"
             },
             {
-                type: "Targaryen",
+                type: "Advanced",
                 content: "#beacon"
             },
             {
-                type: "None",
+                type: "Expert",
                 content: "#s_cubed"
             }
         ]
     },
     {
-        question: "When an alert comes through that is a search (e.g., Google, Bing), SSS should focus on the DOM text.",
+        question: "When an alert comes through that is a search (e.g., Google, Bing), you should only focus on the DOM text.",
         answers: [
             {
-                type: "Stark",
+                type: "Proficient",
                 content: "True"
             },
             {
-                type: "Lannister",
+                type: "Expert",
                 content: "False"
             }
         ]
@@ -442,11 +442,11 @@ var quizQuestions = [
         question: "When typing notes in Zendesk, should they be internal facing or external facing?",
         answers: [
             {
-                type: "Stark",
+                type: "Expert",
                 content: "Internal"
             },
             {
-                type: "Lannister",
+                type: "Proficient",
                 content: "External"
             }
         ]
@@ -455,19 +455,19 @@ var quizQuestions = [
         question: "If you have gone through the Escalation List twice and cannot reach anyone, what should you do?",
         answers: [
             {
-                type: "Stark",
+                type: "Beginner",
                 content: "Slack the General Manager about it"
             },
             {
-                type: "Lannister",
+                type: "Proficient",
                 content: "Slack the team about it"
             },
             {
-                type: "Targaryen",
+                type: "Expert",
                 content: "Slack the General Manager and Team Manager about it"
             },
             {
-                type: "None",
+                type: "Advanced",
                 content: "Do nothing other than 'complete' the escalation"
             }
         ]
@@ -476,15 +476,15 @@ var quizQuestions = [
         question: "Is it okay to post PII in an open Slack channel or email?",
         answers: [
             {
-                type: "Stark",
+                type: "Beginner",
                 content: "Yes"
             },
             {
-                type: "Lannister",
+                type: "Advanced",
                 content: "Sometimes depending on the situation"
             },
             {
-                type: "Targaryen",
+                type: "Expert",
                 content: "Never"
             }
         ]
@@ -493,41 +493,41 @@ var quizQuestions = [
         question: "What do Safety Support Specialists not get QA’ed on?",
         answers: [
             {
-                type: "Stark",
+                type: "Beginner",
                 content: "Customer Service"
             },
             {
-                type: "Lannister",
+                type: "Advanced",
                 content: "Process and Protocols"
             },
             {
-                type: "Targaryen",
+                type: "Expert",
                 content: "Timing"
             },
             {
-                type: "None",
+                type: "Proficient",
                 content: "Competency"
             }
         ]
     },
     {
-        question: "What should you do if any media or press has any inquiries about GoGuardian?",
+        question: "What should you do if a third party reaches out from the press or media?",
         answers: [
             {
-                type: "Stark",
+                type: "Beginner",
                 content: "Report the incident to IT"
             },
             {
-                type: "Lannister",
-                content: "Decline any requests and reach out to GM and MOD"
+                type: "Expert",
+                content: "Decline any requests and notify the General Manager and Team Manager immediately"
             },
             {
-                type: "Targaryen",
-                content: "Respond the request but be careful not to provide PII"
+                type: "Proficient",
+                content: "Respond to the request but be careful not to provide PII"
             },
             {
-                type: "None",
-                content: "Ignore or delete any requests"
+                type: "Advanced",
+                content: "Decline any requests and notify the whole team via Slack"
             }
         ]
     },
@@ -535,19 +535,19 @@ var quizQuestions = [
         question: "What phase would the Google search “suicide” be caterorized under?",
         answers: [
             {
-                type: "Stark",
+                type: "Beginner",
                 content: "Help and Resources"
             },
             {
-                type: "Lannister",
+                type: "Advanced",
                 content: "Active Planning"
             },
             {
-                type: "Targaryen",
+                type: "Expert",
                 content: "Research"
             },
             {
-                type: "None",
+                type: "Proficient",
                 content: "Self-Harm"
             }
         ]
@@ -556,20 +556,20 @@ var quizQuestions = [
         question: "When an alert is de-escalated, what are the next steps that should be taken?",
         answers: [
             {
-                type: "Stark",
+                type: "Beginner",
                 content: "Fill out Oz notes and 'Complete'"
             },
             {
-                type: "Lannister",
-                content: "De-escalated alerts require no additional steps"
-            },
-            {
-                type: "Targaryen",
-                content: "Fill out Oz notes and send emails from Zendesk"
-            },
-            {
-                type: "None",
+                type: "Expert",
                 content: "Fill out Oz notes then add the alert to the 'De-escalated Alerts' form"
+            },
+            {
+                type: "Advanced",
+                content: "Fill out Oz notes, send emails from Zendesk, then add to the 'De-escalated Alerts' form"
+            },
+            {
+                type: "Proficient",
+                content: "De-escalated alerts require no additional steps"
             }
         ]
     },
